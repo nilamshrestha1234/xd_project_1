@@ -1,0 +1,500 @@
+*{
+    margin: 0;
+     padding: 0;
+  }
+  
+  body{
+    font-family: 'Inter',Georgia;
+    color: #002147 !important;
+    font-size: 14px !important;
+  }
+  ul, li {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+  }
+  
+  /*----------------*/
+  .bg-primary{
+    background-color:#002147 !important;
+  }
+  .text-primary{
+    color:#002147 !important;
+  }
+  .text-muted { 
+    color: #bcbcbc !important;
+  }
+  .bg-light{
+    background-color: #F0F4F9 !important;
+  }
+  /* h1{
+    font-family: Georgia;
+    font-size: 48px;
+    color:#002147 ;
+    font-weight: bold;
+  } */
+  h2 {
+    font-family: Georgia;
+    font-size: 60px;
+    color:#002147 ;
+  }
+  
+  h4 {
+    font-family: 'Inter';
+    font-size: 30px ;
+    font-weight:700;
+  }
+  h5{
+    font-family: 'Inter';
+    font-size: 20px;
+    font-weight: 700;
+  }
+  h6{
+    font-family: 'Inter';
+    font-size: 16px;
+    font-weight: 700;
+    color: #FDC800;
+  }
+  /*-------header section-----------*/
+
+
+
+  .nav_top,.copy_right{
+    background-color: #FDC800;
+  }
+  .nav_top{
+    padding-top: 13px;
+    padding-bottom: 13px;
+    min-height: 48px;
+  }
+  /* .nav-top .left-content{
+    white-space: nowrap;
+    align-items: center;
+    flex-wrap: wrap;
+  } */
+  .nav_top .top_left{
+    padding-right: 22px;
+  }
+  .nav_top i{
+    font-size: 18px;
+  }
+
+  .nav_bottom {
+    padding-top: 24px;
+    padding-bottom: 24px;
+  }
+ .nav_bottom a i{
+   font-size: 20px;
+ }
+ .nav_bottom a{
+   padding: 12px;
+ }
+  .nav_bottom  .navbar-nav .nav-item .nav-link{
+    font-family: 'Inter';
+    font-weight: 700;
+    padding-right: 21px;
+    color: #002147 !important;
+  
+  }
+  .sign-up .btn{
+    padding:10px 28px ;
+    margin-right: 21px;
+  }
+  .sign-up a{
+    border: 1px solid #BDBDBD;
+    border-radius: 5px;
+    font-size: 16px;
+    
+  }
+
+  
+  /*---------------*/
+
+  .banner .left-content h1{
+    font-family: Georgia;
+    font-size: 60px;
+    color:#002147 ;
+  }
+  .main-button .btn{
+    padding:15px 51px 15px 51px ;
+  }
+  .main-button .read-btn{
+    border: 2px solid #adafb3;
+  }
+  .art-design{
+    background-color: #F0F4F9;
+  }
+  .banner_ad{
+    border-radius: 10px;
+    margin-top: -50px;
+    padding: 24px 36px 24px 36px;
+  }
+  .banner_ad strong{
+    font-family: 'Inter';
+    font-size: 60px;
+    color:#fff ;
+    font-weight: 700;
+  }
+  
+  /*--featured-courses---*/
+  .featured-courses{
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+  .featured-courses h1{
+    padding-bottom: 36px;
+  }
+   .course-logo img{
+    position: absolute;
+    top: 120px;
+    left: 10px;
+    border: 4px solid #F0F4F9;
+  }
+  .featured-courses .card-title {
+    margin-bottom: 3px;
+    height: 50px;
+    line-height: 1.2;
+    word-wrap: normal;
+    overflow: hidden;
+  }
+  .featured-courses .card-text{
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    width: 100%;
+    display: inline-block;
+  }
+  
+  /* feedback*/
+  .feedback{
+    padding-top: 114px;
+    padding-bottom: 112px;
+  }
+  
+  .feedback .feed-content{
+    padding-bottom: 47px;
+  }
+  .feedback .content-bottom{
+    padding: 24px 41px 24px 41px;
+    border-radius: 5px;
+  }
+  .feedback .profile{
+    background-color:#fff;
+    border-radius: 10px;
+    width: 80%;
+    text-align: center;
+    padding-top: 10px;
+    position: absolute;
+    bottom: -30px;
+    left: 40px;
+    
+  }
+  .feedback .right-content h5{
+    font-family: 'Inter';
+    font-size: 16px;
+    font-weight: 700;
+  }
+  .klogo{
+    position: absolute;
+    top:0;
+  }
+  .art-logo img{
+    height: 80px;
+    width: 80px;
+    border-radius: 5px;
+  }
+  
+  /*---recruting----*/
+  .recruting{
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+  .recruting .input-content{
+    border: 2px solid #adafb3;
+    border-radius: 6px;
+    max-width: 570px;
+    padding:5px 0 5px 10px;
+  }
+  .recruting .input-content  .input-group .btn{
+    border-radius: 6px !important;
+  }
+  .recruting .subscribe p{
+    font-family: 'Inter';
+    font-size: 16px;
+    font-weight: 700;
+    color: #FDC800;
+  }
+  .recruting .subscribe h1{
+    font-family: Georgia;
+    font-size: 48px;
+    color:#002147 ;
+    font-weight: bold;
+  }
+  .recruting .btn{
+    padding: 10px 10px;
+  }
+  .recruting .input-content input{
+    border:none;
+    box-shadow: none;
+  }
+  .recruting i{
+    font-size: 18px;
+  }
+
+
+
+  /*--footer---*/
+  footer{
+    padding-top: 88px;
+    background-color: #002147;
+  }
+  footer .left-content ul{
+    padding-top: 35px;
+  }
+  footer .left-content ul li{
+    padding-bottom: 35px;
+  }
+  .copy_right{
+    padding:30px;
+    font-size: 16px;
+  }
+ .copy-para{
+   margin-bottom: 0;
+ }
+  footer .logo h3{ 
+    font-family: 'Inter' ;
+    font-size: 23px;
+    font-weight: 800;
+    color: #fff;
+    text-transform: uppercase;
+  }
+  footer ul li{
+    padding-bottom: 14px;
+  }
+  
+  /*---happy learners---*/
+  #happy-learners p{
+    color: #00B2B2;
+    font-weight: bold;
+    font-family: 'Inter';
+  }
+  #happy-learners h2{
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 60px;
+  }
+  #happy-learners .img-4{
+    padding-bottom: 80px;
+  }
+   .subscribe{
+    padding-top: 80px;
+  }
+  #happy-learners {
+    background-image: url(../images/map.png);
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  /*------courses-------*/
+  .course_category{
+    padding-bottom: 300px;
+    padding-top: 47px;
+  }
+  #course_plan, #course_detail{
+    margin-top: -300px;
+  }
+  
+  
+  /*----course plan-----*/
+  .course_plan{
+    padding-top: 78px;
+    padding-bottom: 112px;
+  
+  }
+ .course_plan #pills-tab{
+  background-color: #fff;
+  display: inline-flex;
+  padding: 5px;
+  border-radius: 6px;
+ }
+ .course_plan .nav-link{
+   color: #002147;
+ }
+
+  .course_plan .heading{
+    background-color: #033977;
+    padding:8px 0;
+    font-family: 'Inter';
+    font-weight: 700;
+    font-size: 16px;
+    margin-left: 50px;
+    margin-right: 50px;
+    text-transform: uppercase;
+  
+  }
+  .course_plan .popular-field{
+    border-bottom: 2px solid #BDBDBD;
+    padding-bottom: 20px;
+    
+  }
+  .course_plan .course-offer{
+    padding-top: 30px;
+  }
+  .course_plan .price{
+    padding-top: 48px;
+  }
+  .course_plan .currency{
+    font-family: Georgia;
+    font-weight: bold;
+    font-size: 24px;
+  }
+  .course_plan .first-fig{
+    font-family: Georgia;
+    font-weight: bold;
+    font-size: 60px;
+  }
+  .course_plan .last-fig{
+    font-family: Georgia;
+    font-weight: bold;
+    font-size: 36px;
+  }
+  .plan-content{
+    padding-top: 48px;
+   
+  }
+  .course_plan .top-heading p{
+    font-family: 'Inter';
+    font-size: 16px;
+    font-weight: 700;
+    color: #FDC800;
+  }
+  .course_plan .top-heading h1{
+    font-family: Georgia;
+    font-size: 48px;
+    color:#002147 ;
+    font-weight: bold;
+  }
+
+  .course_plan .plan-colm{
+    border: 1px solid #BDBDBD;
+   padding: 0 36px 46px 36px;
+   border-radius: 6px;
+   background-color: #fff;
+  }
+
+  .course_plan .plan-colm ul li{
+    font-size: 16px;
+    font-family: 'Inter';
+    font-weight: 400;
+    padding-bottom: 10px;
+    color: #002147;
+  }
+  .plan-content .btn{
+    padding: 15px 80px;
+  }
+ 
+  .plan-colm ul li i{
+    padding-right: 10px;
+    color: #00B2B2;
+  }
+  .starter-btn, .enterprise-btn{
+    background-color: #002147;
+    color: #fff;
+  }
+  .premium-btn{
+    background-color: #FDC800;
+    color: #002147 ;
+  }
+.nav-pills .nav-link.active{
+    color: #fff;
+    background-color:#00B2B2;
+    padding:10px 28px ;
+}
+.nav-pills .show>.nav-link{
+  color: #fff;
+  background-color:#00B2B2;
+  padding:10px 28px ;
+}
+
+
+
+
+  /*--------course category------------*/
+  .course_category .form-select{
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border: 2px solid #BDBDBD;
+    box-shadow: none;
+  }
+  .course_category label{
+    font-family: 'Inter';
+    font-size: 20px;
+    font-weight: 700;
+  }
+  .course_category .top-heading p{
+    font-family: 'Inter';
+    font-size: 16px;
+    font-weight: 700;
+    color: #FDC800;
+  }
+  .course_category .top-heading h1{
+    font-family: Georgia;
+    font-size: 48px;
+    color:#002147 ;
+    font-weight: bold;
+  }
+  
+  /*----course detail-----*/
+  #course_detail h4{
+    font-family: Georgia;
+    font-weight: bold;
+    font-size: 36px;
+  }
+  #course_detail .learn ul li span{
+    font-family: 'Inter';
+    font-weight: 700;
+    font-size: 16px;
+    color: #212529;
+  
+  }
+  #course_detail  .list-group-flush li{
+    padding: 18px ;
+  }
+  #course_detail  .list-group-flush li span{
+    color: #212529;
+    font-size: 16px;
+    font-weight: bold;
+  }
+  .left-content  .image-content img {
+    height: 577px;
+  }
+  #course_detail .card{
+    border: 2px solid #BDBDBD;
+    width: 370px;
+  }
+  #course_detail .card-body p{
+   margin-bottom: 0;
+  }
+  #course_detail .card-image img{
+    width: 30%;
+    padding-top: 15px;
+    padding-bottom: 25px;
+  }
+  #course_detail .card-body span{
+    color: #00B2B2;
+    font-family: 'Inter';
+    font-weight: 700;
+  }
+
+  .learn .learn-points {
+    display: flex;
+  }
+  .learn .learn-points i{
+    padding-top: 5px;
+    padding-right: 10px;
+    color: #00B2B2;
+  }
+
+  
+  /*---plans---*/
+ 
+  

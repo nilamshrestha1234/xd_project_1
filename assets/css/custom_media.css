@@ -1,0 +1,163 @@
+@media (min-width: 1200px){
+    .container, .container-lg, .container-md, .container-sm, .container-xl {
+        max-width: 1200px !important;
+}
+
+}
+
+@media (max-width:991px){
+
+  .nav_bottom .navbar-toggler{
+    margin-left: 100px;
+  }
+ 
+    .banner-content{
+        flex-direction: column-reverse;
+      text-align: center;
+    }
+    .banner-content img{
+      width: 75%;
+  
+    }
+    .banner .left-content{
+      padding-top: 40px;
+    }
+    .banner .left-content h1{
+    font-family: Georgia;
+    font-size: 48px;
+    color:#002147 ;
+    }
+  .banner_ad strong{
+    font-family: 'Inter';
+    font-size: 36px;
+    color:#fff ;
+    font-weight: 700;
+  }
+  .banner-content h2{
+        font-family: Georgia;
+        font-size: 48px;
+        color:#002147 ;
+      }
+     
+    .banner-content .main-button .btn{
+        padding:10px 30px 10px 30px ;
+      }
+    }
+  
+
+    @media (max-width:767px){
+      .nav_top .container{
+        flex-direction: column;
+        align-items: center;
+      }
+      .nav_top .left-content{
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 5px;
+      }
+      .nav_bottom img{
+        width: 180px;
+      }
+      .nav_bottom .navbar-toggler{
+        padding: 5px 8px;
+        margin-left: 10px;
+      }
+    
+     .nav .banner_ad strong{
+        font-family: 'Inter';
+        font-size: 26px;
+        color:#fff ;
+        font-weight: 700;
+      }
+      .banner_ad{
+        text-align: center;
+      }
+      .recruting{
+        padding-top: 20px;
+      }
+       .right-content-image img {
+        width: 40%;
+      }
+      .recruting .subscribe{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+    .subscribe{
+      padding-top: 40px;
+    }
+    .recruting .subscribe h1{
+      font-family: Georgia;
+      font-size: 30px;
+      color:#002147 ;
+      font-weight: bold;
+    }
+    .footer-content{
+      text-align: center;
+    }
+    .course_plan .plan-colm {
+        max-width: 400px;
+         
+        }
+
+      }
+
+      @media (max-width:576px){
+        .nav_bottom .navbar-toggler{
+          margin-right: auto;
+        }
+        .nav_bottom .sign-up .btn{
+          padding:8px 12px ;
+        }
+
+        .nav_bottom .sign-up a{
+          display: none;
+        }
+        .banner .left-content h1{
+          font-family: Georgia;
+          font-size: 38px;
+          color:#002147 ;
+          }
+          .banner .left-content h4{
+            font-family: Georgia;
+            font-size: 28px;
+            color:#002147 ;
+            }
+            .banner_ad .timer{
+              display: flex;
+              text-align: center !important;
+              align-items: center;
+              justify-content: center;
+              }
+              .recruting .right-content-image img{
+                width: 30%;
+              }
+             
+              .course_plan .top-heading h1 {
+                font-family: Georgia;
+                font-size: 30px;
+                color: #002147;
+                font-weight: bold;
+            }
+              
+
+        .copy_right p{
+         text-align: center;
+        }
+      }
+
+
+
+     
+
+
+
+/* @media (max-width:px){
+    .nav-top .left-content{
+        flex-direction: column;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+} */
+
+
